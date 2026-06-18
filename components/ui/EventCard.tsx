@@ -10,6 +10,13 @@ interface EventCardProps {
   className?: string;
 }
 
+function parseDate(dateStr: string) {
+  const parts = dateStr.split(" ");
+  const month = parts[0] || "";
+  const day = parts[1]?.replace(",", "") || "";
+  return { month, day };
+}
+
 export default function EventCard({
   title,
   date,
@@ -18,6 +25,8 @@ export default function EventCard({
   href,
   className,
 }: EventCardProps) {
+  const { month, day } = parseDate(date);
+
   return (
     <Link
       href={href}
@@ -27,8 +36,8 @@ export default function EventCard({
       )}
     >
       <div className="shrink-0 w-16 h-16 rounded-lg bg-teal-light flex flex-col items-center justify-center text-navy font-bold">
-        <span className="text-xs uppercase">Jun</span>
-        <span className="text-xl leading-none">{date}</span>
+        <span className="text-xs uppercase">{month}</span>
+        <span className="text-xl leading-none">{day}</span>
       </div>
       <div className="min-w-0">
         <h3 className="font-semibold group-hover:text-primary transition-colors line-clamp-2">

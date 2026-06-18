@@ -26,15 +26,15 @@ export const metadata: Metadata = {
 const upcomingEvents = [
   {
     title: "NF Strong Summer Concert",
-    date: "21",
+    date: "Jun 21, 2026",
     location: "Woodstock, GA",
     description:
-      "An evening of live music, community, and hope — featuring local artists and NF community speakers.",
+      "An evening of live music, community celebration, and hope. All proceeds benefit NF research and local programs.",
     href: "/events",
   },
   {
     title: "NF California Huntington Beach Day",
-    date: "28",
+    date: "Jun 28, 2026",
     location: "Bolsa Chica State Beach, CA",
     description:
       "A day of sun, sand, and solidarity on the California coast. Family-friendly activities for all ages.",
@@ -42,7 +42,7 @@ const upcomingEvents = [
   },
   {
     title: "NF Summer Camp at Brainy Ridge",
-    date: "5",
+    date: "Jul 5, 2026",
     location: "St. George, VA",
     description:
       "A week-long residential summer camp for children and teens with NF in a safe, medically supported environment.",
@@ -50,15 +50,15 @@ const upcomingEvents = [
   },
   {
     title: "Stronger Together: Navigating NF as a Dad",
-    date: "12",
-    location: "Virtual",
+    date: "Jul 12, 2026",
+    location: "Virtual — Online",
     description:
       "An online gathering for fathers of children with NF to share experiences, challenges, and encouragement.",
     href: "/events",
   },
   {
     title: "Docs Rock for NF",
-    date: "15",
+    date: "Aug 15, 2026",
     location: "Nationwide",
     description:
       "Physicians and medical professionals come together for a concert event supporting NF research and awareness.",
@@ -66,40 +66,40 @@ const upcomingEvents = [
   },
   {
     title: "Links for Lauren",
-    date: "8",
-    location: "Golf Tournament",
+    date: "Sep 8, 2026",
+    location: "Chicago, IL",
     description:
       "Annual charity golf tournament honoring Lauren — bringing the community together for a day on the green.",
     href: "/events",
   },
   {
     title: "Scully Coffee4NF",
-    date: "19",
-    location: "Community Event",
+    date: "Sep 19, 2026",
+    location: "Nationwide — Local Cafés",
     description:
       "Grab a cup for a cause. Local coffee shop fundraiser supporting NF Network programs and research.",
     href: "/events",
   },
   {
     title: "Ducky Dash",
-    date: "22",
-    location: "Rubber Duck Race",
+    date: "Oct 22, 2026",
+    location: "Nashville, TN",
     description:
       "Thousands of rubber ducks race to the finish line — adopt your duck and watch it compete for a great cause.",
     href: "/events",
   },
   {
     title: "Run4NF",
-    date: "14",
-    location: "5K Run/Walk",
+    date: "Oct 14, 2026",
+    location: "Denver, CO",
     description:
       "Lace up and hit the pavement. A family-friendly 5K run and walk raising funds for the NF community.",
     href: "/events",
   },
   {
     title: "SketchNF",
-    date: "25",
-    location: "Art Showcase",
+    date: "Nov 25, 2026",
+    location: "Nationwide — Online Gallery",
     description:
       "An art event celebrating creativity in the NF community. Artists of all ages share their work and their stories.",
     href: "/events",

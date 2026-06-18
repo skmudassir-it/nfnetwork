@@ -120,25 +120,25 @@ export default function HomePage() {
           <div className="mt-12 grid sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
             <EventCard
               title="Stronger Together: Navigating NF as a Dad"
-              date="17"
-              location="Virtual — Everywhere"
+              date="Jul 12, 2026"
+              location="Virtual — Online"
               href="/events"
             />
             <EventCard
               title="NF Strong Summer Concert"
-              date="17"
+              date="Jun 21, 2026"
               location="Woodstock, GA"
               href="/events"
             />
             <EventCard
               title="NF California's Huntington Beach Day"
-              date="18"
+              date="Jun 28, 2026"
               location="Bolsa Chica State Beach, CA"
               href="/events"
             />
             <EventCard
               title="NF Summer Camp at Brainy Ridge"
-              date="19"
+              date="Jul 5, 2026"
               location="St. George, VA"
               href="/events"
             />
