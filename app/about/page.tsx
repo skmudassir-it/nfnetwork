@@ -121,13 +121,13 @@ export default function AboutPage() {
                 icon: <Globe className="w-6 h-6" />,
               },
               {
-                value: "$250M+",
+                value: "$200M+",
                 label: "Research Funding Secured",
                 desc: "Advocating for federal dollars through the CDMRP and NIH to accelerate NF research.",
                 icon: <Microscope className="w-6 h-6" />,
               },
               {
-                value: "25+",
+                value: "30+",
                 label: "Years of Advocacy",
                 desc: "A proven track record of legislative wins and policy changes that benefit the NF community.",
                 icon: <Megaphone className="w-6 h-6" />,

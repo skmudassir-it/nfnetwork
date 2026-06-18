@@ -161,7 +161,11 @@ export default function DonatePage() {
                       variant="outline"
                       className="w-full border-primary/30 text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
                     >
-                      Give {option.title === "One-Time Gift" ? "Now" : "Monthly"}
+                      {option.title === "One-Time Gift"
+                        ? "Give Now"
+                        : option.title === "Monthly Giving"
+                          ? "Give Monthly"
+                          : "Make a Tribute"}
                       <ArrowRight className="w-4 h-4 ml-1" />
                     </Button>
                   </Link>
